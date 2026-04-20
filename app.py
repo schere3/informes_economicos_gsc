@@ -10,9 +10,14 @@ def pagina_principal():
     st.markdown("""
     ## Índice
     1. [Introducción](#introducción)
+    Comenzamos realizando un analisis de...
     2. [Requisitos Previos](#requisitos-previos)
+    Por ende el requisito previo...
     3. [Instalación y Configuración](#instalación-y-configuración)
-    4. [Ir a Requisitos](otra-pagina.md#requisitos-previos)""")
+    4. [Ir a Requisitos](otra-pagina.md#requisitos-previos)
+    A veces, no basta solo con realizar ...
+    """)
+
 
 def visualizar_datos():
     st.title("Visualización de Datos")
