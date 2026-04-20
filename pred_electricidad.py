@@ -7,7 +7,7 @@ st.write("El presente estudio se centrará en el análisis del gasto de electric
 st.write("El objetivo es realizar un análisis de series temporales utilizando técnicas de Machine Learning (ML) a partir de los datos de gasto de electricidad correspondientes a los años 2024 y 2025, con el fin de modelar su comportamiento y realizar posibles predicciones.")
 
 # Cargado de datos
-st.title("Visualización de Datos")
+st.title("Análisis Exploratorio de Datos (EDA)")
 st.write("Carga un archivo CSV para visualizar los datos.")
 archivo_cargado = st.file_uploader("Elige un archivo CSV", type="csv")
 if archivo_cargado is not None:
@@ -17,8 +17,18 @@ if archivo_cargado is not None:
     st.write("Estadísticas descriptivas")
     st.write(df.describe())
 
+
 # Sub-navegación mediante Pestañas (Tabs)
-tab1, tab2, tab3 = st.tabs(["📊 Vista General", "📈 Tendencias", "💰 Análisis de Costes"])
+# Preparación de datos
+# imputacion de datos
+
+tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(["📊 Vista General",
+                            "📈 Tendencias",
+                            "💰 Análisis de Costes", 
+                            "Descomposición en tendencia, estacionalidad y residuos",
+                            "Ingeniería de Características",
+                            "División de Datos",
+                            "Modelos"])
 
 with tab1:
     st.subheader("Resumen del Conjunto de Datos")
@@ -32,5 +42,25 @@ with tab2:
 
 with tab3:
     st.subheader("Desglose Financiero")
+    fig = px.bar(df, x='Mes', y='Coste', color='Mes')
+    st.plotly_chart(fig)
+
+with tab4:
+    st.subheader("Descomposición en tendencia, estacionalidad y residuos")
+    fig = px.bar(df, x='Mes', y='Coste', color='Mes')
+    st.plotly_chart(fig)
+
+with tab5:
+    st.subheader("Ingeniería de Características")
+    fig = px.bar(df, x='Mes', y='Coste', color='Mes')
+    st.plotly_chart(fig)
+
+with tab6:
+    st.subheader("División de Datos")
+    fig = px.bar(df, x='Mes', y='Coste', color='Mes')
+    st.plotly_chart(fig)
+
+with tab7:
+    st.subheader("Modelos")
     fig = px.bar(df, x='Mes', y='Coste', color='Mes')
     st.plotly_chart(fig)
