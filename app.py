@@ -6,6 +6,11 @@ def pagina_principal():
     st.title("Página Principal")
     st.write("Estamos antes la página principal de nuestro estudio")
     st.write("Usa el menú de la izquierda para navegar entre las páginas.")
+    ## Índice
+    1. [Introducción](#introducción)
+    2. [Requisitos Previos](#requisitos-previos)
+    3. [Instalación y Configuración](#instalación-y-configuración)
+    4. [Ir a Requisitos](otra-pagina.md#requisitos-previos)
 
 def visualizar_datos():
     st.title("Visualización de Datos")
