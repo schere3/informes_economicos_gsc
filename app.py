@@ -41,6 +41,6 @@ pagina = st.sidebar.selectbox("Selecciona una página", ["Página Principal",
 if pagina == "Página Principal":
     pagina_principal()
 elif pagina == "Visualización de Datos":
-    visualizar_datos():
+    visualizar_datos()
 elif pagina == "Gráficos Interactivos":
     graficos_interactivos()
