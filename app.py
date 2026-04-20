@@ -12,7 +12,7 @@ def pagina_principal():
     1. [Introducción](#introducción)
     2. [Requisitos Previos](#requisitos-previos)
     3. [Instalación y Configuración](#instalación-y-configuración)
-    4. [Ir a Requisitos](otra-pagina.md#requisitos-previos)
+    4. [Ir a Requisitos](otra-pagina.md#requisitos-previos)""")
 
 def visualizar_datos():
     st.title("Visualización de Datos")
