@@ -17,7 +17,7 @@ navigation_env = st.navigation(
     {
         "": [pg_intro],
         "Gastos de electricidad 2026" : [pg1],
-        "Sección": [pg_1,pg_2],
+        "└─ Subsección": [pg_1, pg_2],            # Aparecerá como un grupo separado justo debajo
         "Gestión de materiales fungibles": [pg2],
         "Máquinas Vending": [pg3],
         "Concurso de Suministro de Agua": [pg4],
