@@ -7,7 +7,6 @@ st.write("El presente estudio se centrará en el análisis del gasto de electric
 st.write("El objetivo es realizar un análisis de series temporales utilizando técnicas de Machine Learning (ML) a partir de los datos de gasto de electricidad correspondientes a los años 2024 y 2025, con el fin de modelar su comportamiento y realizar posibles predicciones.")
 
 # Cargado de datos
-st.header("⚡ Estudio de Gastos de Electricidad")
 st.title("Visualización de Datos")
 st.write("Carga un archivo CSV para visualizar los datos.")
 archivo_cargado = st.file_uploader("Elige un archivo CSV", type="csv")
