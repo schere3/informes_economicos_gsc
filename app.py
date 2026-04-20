@@ -7,15 +7,24 @@ def pagina_principal():
     st.write("Estamos antes la página principal de nuestro estudio")
     st.write("Usa el menú de la izquierda para navegar entre las páginas.")
     # Todo el contenido Markdown debe ir entre comillas triples dentro de st.markdown
+    st.write("Usa el menú de la izquierda para navegar entre las páginas.")
+    
+    # Todo el contenido Markdown debe ir entre comillas triples dentro de st.markdown
     st.markdown("""
     ## Índice
     1. [Introducción](#introducción)
-    Comenzamos realizando un analisis de...
     2. [Requisitos Previos](#requisitos-previos)
-    Por ende el requisito previo...
     3. [Instalación y Configuración](#instalación-y-configuración)
-    4. [Ir a Requisitos](otra-pagina.md#requisitos-previos)
-    A veces, no basta solo con realizar ...
+    4. [Ir a Visualización de Datos](otra-pagina.md#requisitos-previos)
+    ---
+    ## Introducción
+    Aquí va tu texto de introducción...
+    
+    ## Requisitos Previos
+    Aquí los requisitos...
+    
+    ## Instalación y Configuración
+    Pasos de instalación...
     """)
 
 
