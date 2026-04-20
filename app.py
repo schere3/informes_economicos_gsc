@@ -18,10 +18,10 @@ navigation_env = st.navigation(
         "": [pg_intro],
         "Gastos de electricidad 2026" : [pg1],
         "Sección": [pg_1,pg_2],
-        "Gestión de materiales fungibles": [pag2],
-        "Máquinas Vending": [pag3],
-        "Concurso de Suministro de Agua": [pag4],
-        "Generación de Datos Sintéticos": [pag5]
+        "Gestión de materiales fungibles": [pg2],
+        "Máquinas Vending": [pg3],
+        "Concurso de Suministro de Agua": [pg4],
+        "Generación de Datos Sintéticos": [pg5]
     }
 )
 navigation_env.run()
