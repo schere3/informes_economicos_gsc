@@ -6,6 +6,8 @@ def pagina_principal():
     st.title("Página Principal")
     st.write("Estamos antes la página principal de nuestro estudio")
     st.write("Usa el menú de la izquierda para navegar entre las páginas.")
+    # Todo el contenido Markdown debe ir entre comillas triples dentro de st.markdown
+    st.markdown("""
     ## Índice
     1. [Introducción](#introducción)
     2. [Requisitos Previos](#requisitos-previos)
