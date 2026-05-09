@@ -1,2 +1,4 @@
-# informes_economicos_gsc
-Esta aplicación centraliza la gestión de compras a nivel corporativo, ofreciendo herramientas de análisis para la elaboración de informes económicos. Su objetivo es optimizar la formalización de contratos de suministro y servicios mediante un seguimiento detallado de cada fase del proceso.
+# Prácticas Externas - Gestión de Servicios para la Salud y Seguridad en Canarias (GSC).
+Esta página web centraliza todas la actividades realizadas a lo largo de las prácticas realizadas en la empresa pública GSC.
+
+
